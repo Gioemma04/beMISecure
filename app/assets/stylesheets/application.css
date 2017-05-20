@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+.hero__image .carousel-caption{
+
+position:absolute;
+
+top:30%;
+
+}

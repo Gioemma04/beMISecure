@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20170401143747) do
-=======
-ActiveRecord::Schema.define(version: 20170330210506) do
->>>>>>> 54b042fc71972381d7d31b722aba7547825d5824
+ActiveRecord::Schema.define(version: 20171028151512) do
 
   create_table "chains", force: :cascade do |t|
     t.string   "status"
@@ -22,6 +18,16 @@ ActiveRecord::Schema.define(version: 20170330210506) do
     t.integer  "securityLevel"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+  end
+
+  create_table "parking_events", force: :cascade do |t|
+    t.datetime "parkrequest"
+    t.datetime "parkallowed"
+    t.datetime "parkcompleted"
+    t.datetime "getbikerequest"
+    t.datetime "getbikecompleted"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
   end
 
   create_table "stations", force: :cascade do |t|

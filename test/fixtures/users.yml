@@ -1,17 +1,24 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  surname: MyString
-  birthdate: 2017-01-14
-  phonenumber: MyString
-  email: MyString
-  password: MyString
-
+  name: Myo
+  surname: Stringo
+  birthdate: 2002-01-14
+  phonenumber: 3556267856
+  email: MyoStringo@GG.us
+  password: MyoStringo
+  id: 11037
+  
+  
+  
+  
 two:
-  name: MyString
-  surname: MyString
-  birthdate: 2017-01-14
-  phonenumber: MyString
-  email: MyString
-  password: MyString
+  name: Kibo
+  surname: Ouma
+  birthdate: 2003-01-01
+  phonenumber: 3556267847
+  email: KiboOuma@Robo.us
+  password: Kiboouma
+  id: 91073
+  
+  

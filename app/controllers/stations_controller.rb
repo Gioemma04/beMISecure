@@ -20,6 +20,12 @@ class StationsController < ApplicationController
   # GET /stations/1/edit
   def edit
   end
+  
+  def my_commands
+    @lista_di_dio = Array.new
+    @station.chains.all.each do |catena|
+      @lista_di_dio.push catena.commands.last
+  end
 
   # POST /stations
   # POST /stations.json
